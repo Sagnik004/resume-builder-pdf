@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+  --sidebar-bg-color: rgb(4, 70, 100);
+  --primary-text-color: rgb(21, 107, 146);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  font-size: 1em;
+}
+
+.sidebar {
+  width: 25%;
+  background-color: var(--sidebar-bg-color);
+  color: #fff;
+  padding-left: 1.2em;
+  padding-top: 1.4em;
+  line-height: 1.8;
+  font-size: 1em;
+}
+
+.sidebar-section {
+  margin-bottom: 2em;
+}
+
+.sidebar-title {
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  margin: 0.3em auto;
+  color: rgb(243, 219, 219);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+ul.sidebar-contact-info {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.sidebar-contact-info li {
+  padding: 0.25em 0;
+}
+
+ul.sidebar-contact-info li a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0.1px;
+}
+
+.icon {
+  margin-right: 0.5em;
+}
+
+ul.skills-content {
+  padding-left: 1.4em;
+}
+
+ul.skills-content li {
+  margin: 0.5em auto;
+}
+
+.education-section {
+  margin: 15px auto;
+}
+
+/* Main Content here */
+.main-content {
+  width: 75%;
+  padding-left: 2.5em;
+  margin-left: 1em;
+  margin-top: 1.5em;
+  font-size: 1.2em;
+  line-height: 1.7;
+}
+
+.main-content header h3 {
+  letter-spacing: 1.8px;
+  margin-bottom: 0.3em;
+  font-size: 2em;
+}
+
+.main-content header p {
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.main-content hr {
+  display: block;
+  height: 2px;
+  max-width: 67.5em;
+  margin: 1.2em 0;
+  border: 0;
+  border-top: 3.3px solid var(--primary-text-color);
+  border-radius: 3.5px;
+}
+
+.main-section article {
+  margin-bottom: 16px;
+  padding-right: 10px;
+}
+
+.main-section h3 {
+  text-transform: uppercase;
+  margin-bottom: 5.5px;
+  color: var(--primary-text-color);
+  font-size: 1.5em;
+  letter-spacing: 1.2px;
+}
+
+.proj-exp {
+  display: flex;
+}
+
+.proj-exp p {
+  margin-left: 5px;
+}
